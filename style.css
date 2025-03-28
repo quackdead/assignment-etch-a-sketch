@@ -1,0 +1,36 @@
+html, body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    font-family: "sans", sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid orange;
+}
+.container div {
+    border: 2px solid orange;
+}
+button {
+    margin: 10px;
+    color: black;
+    background-color: orange;
+    border: 0;
+    height: 60px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+.message {
+    color: orange;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
